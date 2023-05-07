@@ -118,7 +118,10 @@ return 0;
 ![image](https://user-images.githubusercontent.com/105592893/236697417-8cb5e0b3-9609-4516-8d01-332d13936849.png)
 
 
-![image](https://user-images.githubusercontent.com/105592893/236697630-a428d174-7c81-4451-b612-388d2acbaebd.png)
+![image](https://user-images.githubusercontent.com/105592893/236698824-f8657440-4573-416a-bdfb-cf31d1b20efa.png)
+![image](https://user-images.githubusercontent.com/105592893/236699187-87489e11-b6ce-41c2-b3b4-64e65b4385a8.png)
+![image](https://user-images.githubusercontent.com/105592893/236699477-901c7555-456f-438d-9d0c-b1290fd7aaca.png)
+
 
 Implementation and Design Decisions:
 The program simulates Conway's Game of Life, where each cell in a grid is either alive (represented by 1) or dead (represented by 0). The program uses multi-threading with pthreads to update each row of the grid in parallel, and a mutex is used to synchronize access to the grid. The implementation uses integer arrays to represent the grid data structure, and a separate function is created to calculate the number of live neighbors of a cell.
